@@ -1,0 +1,13 @@
+.widget-container {
+    margin-bottom: 50px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+}
+.column-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+.dictionary-container {
+    width: 400px;
+    height: 150px;
+    color: #fff;
+    /* overflow: hidden; */
+    padding: 10px 10px 15px 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.dictionary {
+    text-align: center;
+    width: 20%;
+    font-size: 80px;
+    z-index: 1;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+.dictionary-input {
+    width: 80%;
+    height: 50px;
+    outline: none;
+    padding-left: 10px;
+}

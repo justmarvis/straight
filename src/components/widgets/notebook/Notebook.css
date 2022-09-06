@@ -1,0 +1,74 @@
+.notebook-container {
+    width: 400px;
+    height: 590px;
+    color: #000;
+    /* overflow: hidden; */
+    padding: 10px 10px 15px 10px;
+    background: linear-gradient(#6798F6, #6798F6);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    transition: 0.2s;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.note-logo {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.notebook-pad {
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.2s;
+    margin: 0 auto;
+}
+.notebook-pad:not(:last-child) {
+    margin-bottom: 30px;
+}
+.notebook-pad:first-child {
+    margin-top: 20px
+}
+.notebook-pad:hover {
+    transform: scale(1.1);
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.notebook-h2 {
+    padding-left: 5px;
+}
+.note-stroke {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 2.5px solid #000;
+    margin-left: 5px;
+}
+.pad-scroll {
+    border-bottom: 1px dashed #000;
+    padding-bottom: 30px;
+    overflow: scroll;
+}
+.add-note {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+.add-note:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.add-note:active {
+    transform: scale(0.9);
+}
