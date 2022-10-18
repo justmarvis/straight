@@ -1,0 +1,41 @@
+.login-container {
+    width: 50%;
+}
+.begin {
+    color: rgba(0, 125, 225, 0.8);
+}
+.Lnote {
+    color: #000;
+}
+.loginE {
+    color: #000;
+}
+.loginP {
+    color: #000;
+}
+.logbtn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    float: right;
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid rgba(0, 125, 225, 0.8);
+    /* color: #000; */
+    cursor: pointer;
+}
+.logbtn:hover {
+    background-color: rgba(0, 125, 225, 0.8);
+}
+.logbtn:active {
+    transform: scale(0.8);
+}
+.Logo-title {
+    position: absolute;
+    font-size: 50px;
+    top: 10px;
+    left: 20px;
+}
+.h1 {
+    font-size: 25px;
+    font-weight: 100;
+}

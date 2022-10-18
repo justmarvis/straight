@@ -1,0 +1,53 @@
+.signup-container {
+    transform: scale(1.5);
+    width: 50%;
+}
+.Snote {
+    color: #fff;
+}
+.Fname, .Lname, .Email, .Password {
+    color: #fff;
+}
+.fname, .lname, .email, .password {
+    border: 2px solid rgba(0, 125, 225, 0.8);
+    border-radius: 5px;
+    outline : none;
+    cursor: text;
+    font-size: 10px;
+    padding: 5px;
+}
+.signupfirstname, .signuplastname {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+.two {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.signbtn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    float: right;
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid rgba(0, 125, 225, 0.8);
+    color: #fff;
+    cursor: pointer;
+}
+.signbtn:hover {
+    background-color: rgba(0, 125, 225, 0.8);
+}
+.signbtn:active {
+    transform: scale(0.8);
+}
+.one {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo-white {
+    color: #fff;
+}

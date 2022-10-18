@@ -1,5 +1,4 @@
 import './Body.css';
-import Date from './date/Date';
 
 import Google from './google-search/Google';
 import Mic from './mic/Mic';
@@ -10,20 +9,17 @@ import Header from '../header/Header';
 function Body() {
     return(
         <div className='body-container'>
-            <div className='header'>
+            <div className='Header'>
                 <Header />
             </div>
-            <div className='google'>
+            <div className='Google'>
                 <Google />
             </div>
-            <br />
-            <Time />
-            <br />
-            <Date />
-            <br />
-            <Mic />
-            <div className='rad-right'>
-                <Radio />
+            <div className='Time'>
+                <Time />
+            </div>
+            <div className='Mic'>
+                <Mic />
             </div>
         </div>
     );

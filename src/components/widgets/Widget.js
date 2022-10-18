@@ -11,18 +11,14 @@ import './Widget.css';
 function Widget() {
     return(
         <div className='widget-container' id='widget'>
-            <div className='column-1'>
-                <Trending />
-                <MusicPlay />
-                <Weather />
-                <Stock />
-                <Listener />
-            </div>
-            <div className='column-2'>
-                <Notebook />
-                <Dictionary />
-                <Record />
-            </div>
+            <Trending />
+            <Notebook />
+            <MusicPlay />
+            <Weather />
+            <Stock />
+            <Dictionary />
+            <Record />
+            <Listener />
         </div>
     );
 }

@@ -12,27 +12,34 @@ function Time() {
     useEffect(() => {
            setInterval(() => setDateState(new Date()), 1000);
     }, []);
+
     return (
         <div className="time-container">
             {/* <CalenderIcon /> */}
             {/* <ClockIcon /> */}
             <div className='time border'>
-            <p className='clock'>
-             {dateState.toLocaleString('en-US', {
-                hour: 'numeric',
-                minute: 'numeric',
-                // second: 'numeric',
-                hour12: false,
-            })}
-            <span className='second'>
-                {dateState.toLocaleString('en-US',{
-                    second: 'numeric'   
-                })}
-            </span>
-            </p>
+                <p className='clock'>
+                    <span className='hour'>
+                        {dateState.toLocaleString('en-US',{
+                            hour: 'numeric',
+                            hour12: false,
+                        })}
+                    </span>
+                    :
+                    <span className='minute'>
+                        {dateState.toLocaleString('en-US',{
+                            minute: 'numeric'
+                        })}
+                    </span>
+                    <span className='second'>
+                        {dateState.toLocaleString('en-US',{
+                            second: 'numeric'   
+                        })}
+                    </span>
+                </p>
             </div>
             <br/>
-            <p>
+            <p className='date'>
             <i class="fa-solid fa-calendar calender"></i>
               {' '}
               {dateState.toLocaleDateString('en-GB', {

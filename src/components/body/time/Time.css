@@ -1,73 +1,35 @@
 .time-container {
-  margin-bottom: 50px;
-}
-.time {
-  position: relative;
-    /* width: 400px;
-    height: 200px; */
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 50px;
-  min-width: 100%;
-    font-size: 250px;
-    border-radius: 10px;
-  background-color: #fff;
+  margin: 0px auto 200px;
 }
 .clock {
-  display: flex;
-  justify-content: center;
-  align-items: start;
+  font-size: 100px;
+  color: #fff;
 }
-.border::before, .border::after {
-  content: '';
-  position: absolute;
-  border-radius: 10px;
-  left: -10px;
-  top: -8px;
-  background: linear-gradient(70deg, rgb(0, 0, 128), rgb(128, 0, 0));
-  /* background-size: 400%; */
-  background-position: center;
-  width: calc(100% + 20px);
-  height: calc(100% + 15px);
-  z-index: -1;
-  /* animation: glow 15s linear infinite; */
+.date {
+  color: #fff;
+  text-shadow: 0px 0px 10px #000;
 }
-/* .clock {
-  border: 10px solid rgba(0, 0, 0, 0.9);
-  border-radius: 50px;
-  margin-top: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
-} */
-  .fa-circle {
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    margin: 0px 20px;
+.calender,.zone {
+  color: rgba(0, 127, 255, 0.9);
+  text-shadow: none;
+}
+.hour {
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.05));
+  padding: 10px;
+}
+.minute {
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.05));
+  padding: 10px; 
+}
+.second {
+  display: none;
+}
+
+@media only screen and (min-width: 60rem) {
+  .clock {
+    font-size: 200px;
   }
-  .sec {
-    font-size: 25px;
-    align-self: end;
-    margin-left: 15px;
+  .time-container {
+    margin: 0px auto 100px;
   }
-  .bottom {
-    align-self: end;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
-    border-radius: 10px;
-    padding: 0px 10px;
-  }
-  .calender, .zone {
-    color: #007fff;
-  }
-  /* .clock {
-    display: flex;
-    height: 100%;
-    align-items: end;
-  } */
-  .second {
-    font-size: 50px;
-    color: dimgrey;
-    font-weight: 600;
-    width: 50px;
-  }
+}

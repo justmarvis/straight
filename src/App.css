@@ -10,6 +10,9 @@
   -moz-osx-font-smoothing: grayscale;
   cursor: default;
 }
-.App {
-  /* background: black; */
+body {
+  background-image: url('https://cdn.glitch.global/6a19564e-7f95-4bcb-afee-8473720639e4/building-g1b1671cfe_1920.jpg?v=1660729278466');
+  background-position: center;
+  background-size: cover;
+  /* backdrop-filter: blur(1px); */
 }

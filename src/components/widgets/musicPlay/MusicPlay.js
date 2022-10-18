@@ -19,8 +19,10 @@ function MusicPlay() {
             <span className='artist'>Artist</span>
             <div className='slider'>
                 <input type='range' value='10' className='bar' />
-                <span className='song-time'>00:00</span>
-                <span className='song-duration'>00:00</span>
+                <div className='timer'>
+                    <span className='song-time'>00:00</span>
+                    <span className='song-duration'>00:00</span>
+                </div>
             </div>
         </div>
     );

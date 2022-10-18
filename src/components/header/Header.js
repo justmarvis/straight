@@ -1,10 +1,11 @@
 import './Header.css';
+import { NavLink, Link } from "react-router-dom";
 
 function Header() {
     return(
         <div className='header-container'>
                 <div className="Img">
-                    <img src="https://cdn.glitch.global/6a19564e-7f95-4bcb-afee-8473720639e4/dark-g1da49e1de_1920.jpg?v=1660726404449" alt="" className="img" />
+                    <NavLink to='/profile'><img src="https://cdn.glitch.global/6a19564e-7f95-4bcb-afee-8473720639e4/dark-g1da49e1de_1920.jpg?v=1660726404449" alt="" className="img" /></NavLink>
                 </div>
                 <div className='top-right'>
                     <i class="fa-solid fa-user-group top"></i>

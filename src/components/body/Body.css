@@ -1,4 +1,23 @@
 .body-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.rad-right {
+  display: flex;
+  justify-content: right;
+  width: 90%;
+  margin: auto;
+}
+.voice-reg {
+  display: flex;
+  justify-content: center;
+}
+.time {
+  margin-top: -20px;
+}
+@media only screen and (min-width: 60rem) {
+.body-container {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -16,9 +35,16 @@
   .time {
     margin-top: -20px;
   }
-  .header {
+  .Header {
     z-index: 10;
   }
-  .google {
+  .Google {
     z-index: 20;
   }
+  .Timer {
+    z-index: 20;
+  }
+  .Mic {
+    z-index: 20;
+  }
+}

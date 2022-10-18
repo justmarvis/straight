@@ -15,11 +15,16 @@
 	position: relative;
 	transform: scale(1.5);
 }
+.microphone {
+	color: rgba(0, 0, 0, 1);
+	/* box-shadow: 0px 0px 10px #000; */
+}
 .mic .microphone {
 	background-color: transparent;
 	position: absolute;
 	transition: 0.2s;
 	cursor: pointer;
+	z-index: 20;
 }
 
 .checkbox:checked + .mic .microphone {
@@ -32,7 +37,7 @@
 	}
 	55% {
 		opacity: 50%;
-		filter:blur(1px);
+		filter: blur(1px);
 	}
 	100% {
 		opacity: 100%;
