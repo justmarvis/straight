@@ -33,9 +33,12 @@
     justify-content: center;
   }
   .time {
-    margin-top: -20px;
+    /* margin-top: -20px; */
   }
   .Header {
+    z-index: 10;
+  }
+  .Onln {
     z-index: 10;
   }
   .Google {

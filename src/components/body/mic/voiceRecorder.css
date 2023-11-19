@@ -1,0 +1,11 @@
+.mic:hover {
+	transform: scale(1.2);
+}
+@media only screen and (max-width: 60rem) { 
+	.dwnloadBtn {
+		/*transform: scale(0.8);*/
+	}
+	.ssBtn {
+		/*transform: scale(0.8);*/
+	}
+}

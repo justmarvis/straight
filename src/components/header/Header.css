@@ -1,59 +1,40 @@
 .header-container {
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
     font-size: 20px;
     width: 100%;
-    padding: 10px 10px;
-    top: 0;
-    right: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: start;
-    color: rgba(0, 0, 0, 50%);
+    justify-content: end;
+    align-items: end;
+    color: rgba(0, 127, 255,1);
 }
-.Img {
-    width: 100px;
-    height: 100px;
-    /* border: 1px solid #000; */
-    border-radius: 50%;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    transition: .2s;
-    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+
+.pop-up {
+    background-color: rgba(104, 77, 77, 0.8);
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
 }
-.Img:active {
-    transform: scale(0.8);
-}
-.img {
-    width: 200px;
-    margin: -15px 0px 0px -50px;
-    /* display: none; */
-}
-.top-right .top:not(:last-child) {
+/* .top-right .top:not(:last-child) {
+    margin-right: 100px;
+} */
+.message {
     margin-right: 50px;
 }
-.setting {
-    display: none;
+.userGroup {
+    margin-right: 100px;
 }
-.set {
-    transition: 0.2s;
-    border: 1px solid transparent;
-    border-radius: 50%;
-    width: 5px;
-    height: 5px;
+.top-right {
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    width: 100%;
+    color: #684D4D;
 }
-.fa-cog, .fa-user-group, .fa-message {
-    cursor: pointer;
-    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
-}
-.setting:checked + .set {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    border-left: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 50%;
-    padding: 50px;
-    width: 500px;
-    height: 500px;
-    color: #007FFF;
-    font-size: 12px;
-    transform: rotateX(90deg);
-}
+/*desktop*/
+/* @media only screen and (min-width: 60rem) {
+} */

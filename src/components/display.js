@@ -4,6 +4,7 @@ import Header from './header/Header';
 import Body from './body/Body';
 import Footer from './footer/Footer';
 import Widget from './widgets/Widget';
+import Second from './second/second';
 
 const Display = () => {
     return(
@@ -12,13 +13,10 @@ const Display = () => {
                 <div className='body'>
                     <Body />
                 </div>
-                <div className='widget'>
-                    <Widget />
+                <div className='second'>
+                    <Second />
                 </div>
             </div>
-            {/* <div className='footer'>
-                <Footer />
-            </div> */}
         </div>
     );
 }

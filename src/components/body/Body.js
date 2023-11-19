@@ -1,10 +1,13 @@
 import './Body.css';
 
 import Google from './google-search/Google';
-import Mic from './mic/Mic';
 import Radio from './radio/Radio';
 import Time from './time/Time';
 import Header from '../header/Header';
+import VoiceRecorder from './mic/voiceRecorder';
+import Online from '../online/online';
+import NewTrend from "./newtrend/newtrend";
+// import HeartBeat from './heart-beat/heartBeat';
 
 function Body() {
     return(
@@ -12,15 +15,21 @@ function Body() {
             <div className='Header'>
                 <Header />
             </div>
-            <div className='Google'>
+            {/* <div className='Google'>
                 <Google />
-            </div>
+            </div> */}
             <div className='Time'>
                 <Time />
             </div>
             <div className='Mic'>
-                <Mic />
+                <VoiceRecorder />
             </div>
+            <div className='Onln'>
+                <Online />
+            </div>
+            {/* <div className='HB'>
+                <HeartBeat />
+            </div> */}
         </div>
     );
 }

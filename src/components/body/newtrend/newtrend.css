@@ -1,0 +1,20 @@
+.trendContainer {
+    position: absolute;
+    background-color: #f5f5f5;
+    color: #000;
+    padding: 20px;
+    bottom: 100px;
+    right: 150px;
+    border-radius: 5px;
+    transition: 10s delay;
+    animation: new 2s linear 0s forwards;
+}
+
+@keyframes new {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 100%;
+    }
+}
